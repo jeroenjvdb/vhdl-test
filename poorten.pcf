@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.49d on Thu Oct 27 14:55:34 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "outNot" LOCATE = SITE "U15" LEVEL 1;
+COMP "outNOR" LOCATE = SITE "M11" LEVEL 1;
+COMP "outAND" LOCATE = SITE "U16" LEVEL 1;
+COMP "outNAND" LOCATE = SITE "V15" LEVEL 1;
+COMP "outOR" LOCATE = SITE "V16" LEVEL 1;
+COMP "inA" LOCATE = SITE "T10" LEVEL 1;
+COMP "inB" LOCATE = SITE "T9" LEVEL 1;
+SCHEMATIC END;
+

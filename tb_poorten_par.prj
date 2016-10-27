@@ -1,0 +1,2 @@
+vhdl work "netgen/par/poorten_timesim.vhd"
+vhdl work "tb_poorten.vhd"

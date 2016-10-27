@@ -1,0 +1,12 @@
+# UCF-bestand voor de mdule "poorten"
+# -----------------------------------
+## schakelaars
+Net "inA" LOC = T10; # SW0 (uiterst rechtse schakelaar)
+Net "inB" LOC = T9 ; # SW1
+
+## leds
+Net "outAnd"		LOC = U16 ; #LD0 (uiterst rechtse led)
+Net "outOr" 		LOC = V16 ; #LD1
+Net "outNot"		LOC = U15 ; #LD2
+Net "outNAND"		LOC = V15 ; #LD3
+Net "outNOR"		LOC = M11 ; #LD4

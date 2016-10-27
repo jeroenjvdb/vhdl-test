@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/tb_poorten_isim_par.exe" -prj "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/tb_poorten_par.prj" "work.tb_poorten" 

@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/poorten.xst" -ofn "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/poorten.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc poorten.ucf -p xc6slx4-csg225-3 poorten.ngc poorten.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc poorten.ucf -p xc6slx4-csg225-3 poorten.ngc poorten.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poorten_map.ncd poorten.ngd poorten.pcf 
+par -w -intstyle ise -ol high -mt off poorten_map.ncd poorten.ncd poorten.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poorten.twx poorten.ncd -o poorten.twr poorten.pcf -ucf poorten.ucf -ucf poorten_UCF.ucf 
+netgen -intstyle ise -s 3  -pcf poorten.pcf -rpw 100 -tpw 0 -ar Structure -tm poorten -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim poorten.ncd poorten_timesim.vhd 
+bitgen -intstyle ise -f poorten.ut poorten.ncd 
+xst -intstyle ise -ifn "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/poorten.xst" -ofn "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/poorten.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc poorten.ucf -uc poorten_UCF.ucf -p xc6slx16-csg324-3 poorten.ngc poorten.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o poorten_map.ncd poorten.ngd poorten.pcf 
+par -w -intstyle ise -ol high -mt off poorten_map.ncd poorten.ncd poorten.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml poorten.twx poorten.ncd -o poorten.twr poorten.pcf -ucf poorten.ucf -ucf poorten_UCF.ucf 
+bitgen -intstyle ise -f poorten.ut poorten.ncd 

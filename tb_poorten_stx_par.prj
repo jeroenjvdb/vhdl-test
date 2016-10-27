@@ -1,0 +1,2 @@
+vhdl isim_temp "netgen/par/poorten_timesim.vhd"
+vhdl isim_temp "tb_poorten.vhd"

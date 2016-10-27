@@ -1,0 +1,2 @@
+vhdl work "poorten.vhd"
+vhdl work "tb_poorten.vhd"

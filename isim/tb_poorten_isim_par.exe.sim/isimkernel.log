@@ -1,0 +1,31 @@
+Command line:
+   tb_poorten_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/poorten_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  61897
+
+Thu Oct 27 14:46:40 2016
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 840.933 Meg
+
+ Total Signals          : 179
+ Total Nets             : 110
+ Total Signal Drivers   : 73
+ Total Blocks           : 52
+ Total Primitive Blocks : 29
+ Total Processes        : 72
+ Total Traceable Variables  : 271
+ Total Scalar Nets and Variables : 5403
+Total Line Count : 306
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 683.647 Meg
+
+Thu Oct 27 14:47:51 2016
+

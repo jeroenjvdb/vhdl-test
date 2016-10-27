@@ -1,0 +1,32 @@
+Running: D:\programma's\xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/tb_poorten_isim_par.exe -prj D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/tb_poorten_par.prj work.tb_poorten 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/netgen/par/poorten_timesim.vhd" into library work
+Parsing VHDL file "D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/tb_poorten.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package vital_timing
+Compiling package vcomponents
+Compiling package vital_primitives
+Compiling package vpackage
+Compiling architecture x_buf_v of entity X_BUF [\X_BUF(true,true,"UNPLACED",(0,0...]
+Compiling architecture x_inv_v of entity X_INV [\X_INV(true,true,"PAD121",(0,0),...]
+Compiling architecture x_obuf_v of entity X_OBUF [\X_OBUF(true,true,"DONT_CARE",12...]
+Compiling architecture x_lut6_v of entity X_LUT6 [\X_LUT6(true,true,"UNPLACED",(0,...]
+Compiling architecture x_lut5_v of entity X_LUT5 [\X_LUT5(true,true,"UNPLACED",(0,...]
+Compiling architecture x_roc_v of entity X_ROC [\X_ROC("UNPLACED",100000,"*")(1,...]
+Compiling architecture x_toc_v of entity X_TOC [\X_TOC("UNPLACED",0,"*")(1,8,1,1...]
+Compiling architecture structure of entity poorten [poorten_default]
+Compiling architecture behavior of entity tb_poorten
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Het systeem kan het opgegeven pad niet vinden, "isim\tb_poorten_isim_par.exe.sim\libPortability.dll".
+Compiled 40 VHDL Units
+Built simulation executable D:/school/SCH-IW_EI/elektronica/digitale/labo/working_directory/ISE1/tb_poorten_isim_par.exe
+Fuse Memory Usage: 83596 KB
+Fuse CPU Usage: 906 ms
